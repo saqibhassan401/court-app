@@ -13,7 +13,9 @@
     <list default="true" id="60a5964f-7d85-4046-8797-bb337af85307" name="Default Changelist" comment="Adding app in github">
       <change afterPath="$PROJECT_DIR$/public/img/others/login-bg.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/auth-views/components/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/auth-views/components/LoginForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout-components/NavPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout-components/NavPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout-components/ThemeConfigurator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout-components/ThemeConfigurator.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612972453653</updated>
-      <workItem from="1612972455013" duration="8584000" />
+      <workItem from="1612972455013" duration="9201000" />
+      <workItem from="1613026283373" duration="1353000" />
     </task>
     <task id="LOCAL-00001" summary="Adding app in github">
       <created>1612977537417</created>
@@ -86,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612984607458</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding app in github">
+      <created>1612985532384</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612985532384</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,20 +112,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding app in github" />
     <option name="LAST_COMMIT_MESSAGE" value="Adding app in github" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1612984736954">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1612985638175">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1612984736954" />
-    <state x="347" y="155" width="586" height="490" key="find.popup" timestamp="1612985481487">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1612985638175" />
+    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1613038223823">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="347" y="155" width="586" height="490" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1612985481487" />
+    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1613038223823" />
+    <state x="347" y="155" width="586" height="490" key="find.popup" timestamp="1613050352648">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="347" y="155" width="586" height="490" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1613050352648" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1612983179055">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
