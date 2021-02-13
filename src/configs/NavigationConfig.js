@@ -192,34 +192,9 @@ const dashBoardNavTree = [{
       imgUrl: dashboardChart,
       breadcrumb: false,
       submenu: []
-    },
-    {
-      key: 'dashboards-sales',
-      path: `${APP_PREFIX_PATH}/dashboards/sales`,
-      title: 'sidenav.dashboard.sales',
-      icon: DotChartOutlined,
-      imgUrl: dashboardSales,
-      breadcrumb: false,
-      submenu: []
-    },
-    {
-      key: 'dashboards-courts',
-      path: `${APP_PREFIX_PATH}/dashboards/courts`,
-      title: 'sidenav.dashboard.courts',
-      icon: FundOutlined,
-      imgUrl: dashboardCourts,
-      breadcrumb: false,
-      submenu: []
-    },
-    {
-      key: 'dashboards-settings',
-      path: `${APP_PREFIX_PATH}/dashboards/settings`,
-      title: 'sidenav.dashboard.settings',
-      icon: FundOutlined,
-      imgUrl: dashboardSettings,
-      breadcrumb: false,
-      submenu: []
     }
+    
+    
   ]
 }]
 
