@@ -1,9 +1,16 @@
 import React, { useState } from "react";
+import { Card } from 'antd';
 const Analytics = () => {
     return (
         <>
-            <p>test</p>
-            </>
+            <Card>
+            <p>testdfsfdsfsdf</p>
+            <p>testdfsfdsfsdf</p>
+            <p>testdfsfdsfsdf</p>
+            <p>testdfsfdsfsdf</p>
+            <p>testdfsfdsfsdf</p>
+            </Card>
+        </>
     )
 }
 

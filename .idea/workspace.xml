@@ -10,14 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60a5964f-7d85-4046-8797-bb337af85307" name="Default Changelist" comment="Changed theme settings">
-      <change afterPath="$PROJECT_DIR$/public/img/others/login-bg.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/app-views/components/analytics/index.js" afterDir="false" />
+    <list default="true" id="60a5964f-7d85-4046-8797-bb337af85307" name="Default Changelist" comment="added widget">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout-components/SideNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout-components/SideNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/ThemeConstant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/ThemeConstant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/app-views/dashboards/default/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/app-views/dashboards/default/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/app-views/components/analytics/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/app-views/components/analytics/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,7 @@
       <workItem from="1612972455013" duration="9201000" />
       <workItem from="1613026283373" duration="2329000" />
       <workItem from="1613230299627" duration="1503000" />
-      <workItem from="1613280080833" duration="1237000" />
+      <workItem from="1613280080833" duration="2624000" />
     </task>
     <task id="LOCAL-00001" summary="Adding app in github">
       <created>1612977537417</created>
@@ -116,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613232014591</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added widget">
+      <created>1613286389462</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1613286389462</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +139,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding app in github" />
     <MESSAGE value="Changed theme settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed theme settings" />
+    <MESSAGE value="added widget" />
+    <option name="LAST_COMMIT_MESSAGE" value="added widget" />
   </component>
   <component name="WindowStateProjectService">
     <state x="391" y="262" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1613054656921">
@@ -148,10 +151,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="128" y="69" key="MergeDialog/0.0.1280.800@0.0.1280.800" timestamp="1613230329775" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1613232047680">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1613286392961">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1613232047680" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1613286392961" />
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1613038223823">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
