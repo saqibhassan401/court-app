@@ -10,12 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60a5964f-7d85-4046-8797-bb337af85307" name="Default Changelist" comment="Adding app in github">
+    <list default="true" id="60a5964f-7d85-4046-8797-bb337af85307" name="Default Changelist" comment="Changed theme settings">
       <change afterPath="$PROJECT_DIR$/public/img/others/login-bg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/app-views/components/analytics/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout-components/NavPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout-components/NavPanel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout-components/ThemeConfigurator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout-components/ThemeConfigurator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout-components/SideNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout-components/SideNav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/ThemeConstant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/ThemeConstant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/app-views/dashboards/default/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/app-views/dashboards/default/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img/others" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -52,7 +56,9 @@
       <option name="presentableId" value="Default" />
       <updated>1612972453653</updated>
       <workItem from="1612972455013" duration="9201000" />
-      <workItem from="1613026283373" duration="1353000" />
+      <workItem from="1613026283373" duration="2329000" />
+      <workItem from="1613230299627" duration="1503000" />
+      <workItem from="1613280080833" duration="1237000" />
     </task>
     <task id="LOCAL-00001" summary="Adding app in github">
       <created>1612977537417</created>
@@ -96,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612985532384</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Changed theme settings">
+      <created>1613050423400</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613050423400</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changed theme settings">
+      <created>1613232014591</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613232014591</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,17 +136,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding app in github" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding app in github" />
+    <MESSAGE value="Changed theme settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed theme settings" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1612985638175">
+    <state x="391" y="262" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1613054656921">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1612985638175" />
+    <state x="391" y="262" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1613054656921" />
+    <state x="128" y="69" key="MergeDialog" timestamp="1613230329775">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="128" y="69" key="MergeDialog/0.0.1280.800@0.0.1280.800" timestamp="1613230329775" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1613232047680">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1613232047680" />
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1613038223823">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1613038223823" />
+    <state x="453" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613230311633">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="453" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1613230311633" />
     <state x="347" y="155" width="586" height="490" key="find.popup" timestamp="1613050352648">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

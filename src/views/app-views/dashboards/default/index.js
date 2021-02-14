@@ -4,6 +4,7 @@ import StatisticWidget from 'components/shared-components/StatisticWidget';
 import ChartWidget from 'components/shared-components/ChartWidget';
 import AvatarStatus from 'components/shared-components/AvatarStatus';
 import GoalWidget from 'components/shared-components/GoalWidget';
+import Analytics from "../../components/analytics";
 import {
   VisitorChartData,
   AnnualStatisticData,
@@ -167,13 +168,16 @@ export const DefaultDashboard = () => {
             }
           </Row>
           <Row gutter={16}>
-            <Col span={24}>
+            <Col span={12}>
               <ChartWidget
                 title="Unique Visitors"
                 series={visitorChartData.series}
                 xAxis={visitorChartData.categories}
                 height={400}
               />
+            </Col>
+            <Col span={12}>
+              <Analytics/>
             </Col>
           </Row>
         </Col>
