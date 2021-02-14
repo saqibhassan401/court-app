@@ -9,7 +9,7 @@ const bookingData = [
     },
     {
         time : "8:00 AM",
-        type:"blockedHours"
+        type:"unbookedHours"
     },
     {
         time : "8:00 AM",
@@ -21,31 +21,7 @@ const bookingData = [
     },
     {
         time : "8:00 AM",
-        type:"blockedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"bookedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"blockedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"blockedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"blockedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"bookedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"blockedHours"
+        type:"unbookedHours"
     },
     {
         time : "8:00 AM",
@@ -62,6 +38,30 @@ const bookingData = [
     {
         time : "8:00 AM",
         type:"blockedHours"
+    },
+    {
+        time : "8:00 AM",
+        type:"unbookedHours"
+    },
+    {
+        time : "8:00 AM",
+        type:"blockedHours"
+    },
+    {
+        time : "8:00 AM",
+        type:"bookedHours"
+    },
+    {
+        time : "8:00 AM",
+        type:"unbookedHours"
+    },
+    {
+        time : "8:00 AM",
+        type:"blockedHours"
+    },
+    {
+        time : "8:00 AM",
+        type:"unbookedHours"
     }
 ]
 
@@ -105,7 +105,7 @@ const Analytics = () => {
                             bookingData.map((booking,index)=>{
                                 return(
                                     <Button style={{margin:"10px"}}>
-                                        <p style={{color: booking.type == "bookedHours" ? "rgba(84,23,255,1)" :""}}>{booking.time}</p>
+                                        <p style={{color: booking.type == "bookedHours" ? "rgba(84,23,255,1)" : booking.type == "blockedHours" ? "red":""}}>{booking.time}</p>
                                     </Button>
                                 )
                             })
