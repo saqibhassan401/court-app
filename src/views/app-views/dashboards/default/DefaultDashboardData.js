@@ -29,13 +29,6 @@ export const AnnualStatisticData = [
 	{
 		title: 'Recent activity',
 		value:'3 new courts added',
-		subtitle: `Compare to last year (2019)`
-	},
-	{
-		title: 'Sales',
-		value:'$6,982',
-		status: 8.2,
-		subtitle: `Compare to last year (2019)`
 	}
 ]
 

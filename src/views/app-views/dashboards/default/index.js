@@ -5,6 +5,9 @@ import ChartWidget from 'components/shared-components/ChartWidget';
 import AvatarStatus from 'components/shared-components/AvatarStatus';
 import GoalWidget from 'components/shared-components/GoalWidget';
 import Analytics from "../../components/analytics";
+import CourtsWidegt from "../../components/courtsWidget";
+import Chat from "../../components/chatComponent";
+
 import {
   VisitorChartData,
   AnnualStatisticData,
@@ -21,7 +24,7 @@ import {
   PlusOutlined,
   EllipsisOutlined,
   StopOutlined,
-  ReloadOutlined
+  ReloadOutlined, ArrowUpOutlined, ArrowDownOutlined
 } from '@ant-design/icons';
 import utils from 'utils';
 import exampleService from 'services/ExampleService'
@@ -150,13 +153,11 @@ export const DefaultDashboard = () => {
   const [recentTransactionData] = useState(RecentTransactionData)
 
   return (
-    <>
-      <Row gutter={16}>
-        <Col xs={24} sm={24} md={24} lg={18}>
-          <Row gutter={16}>
+      <div>
+        <Row gutter={16}>
             {
               annualStatisticData.map((elm, i) => (
-                <Col key={i}>
+                <Col span="9">
                   <StatisticWidget
                     title={elm.title}
                     value={elm.value}
@@ -166,7 +167,10 @@ export const DefaultDashboard = () => {
                 </Col>
               ))
             }
-          </Row>
+            <Col span="15">
+                <CourtsWidegt/>
+            </Col>
+        </Row>
           <Row gutter={16}>
             <Col span={12}>
               <ChartWidget
@@ -179,26 +183,8 @@ export const DefaultDashboard = () => {
             <Col span={12}>
               <Analytics/>
             </Col>
-          </Row>
-        </Col>
-      </Row>
+            </Row>
       <Row gutter={16}>
-        <Col xs={24} sm={24} md={24} lg={7}>
-          <Card title="New Join Member" extra={cardDropdown(newJoinMemberOption)}>
-            <div className="mt-3">
-              {
-                newMembersData.map((elm, i) => (
-                  <div key={i} className={`d-flex align-items-center justify-content-between mb-4`}>
-                    <AvatarStatus id={i} src={elm.img} name={elm.name} subTitle={elm.title} />
-                    <div>
-                      <Button icon={<UserAddOutlined />} type="default" size="small">Add</Button>
-                    </div>
-                  </div>
-                ))
-              }
-            </div>
-          </Card>
-        </Col>
         <Col xs={24} sm={24} md={24} lg={17}>
           <Card title="Latest Transactions" extra={cardDropdown(latestTransactionOption)}>
             <Table
@@ -210,8 +196,12 @@ export const DefaultDashboard = () => {
             />
           </Card>
         </Col>
+        <Col span="7">
+          <Chat/>
+        </Col>
       </Row>
-    </>
+      </div>
+
   )
 }
 
