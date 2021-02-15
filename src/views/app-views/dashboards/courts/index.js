@@ -100,21 +100,7 @@ const SalesDashboard = () => {
 			</Row>
 				<Row gutter={16}>
 					<Col xs={24} sm={24} md={24} lg={24}>
-						<Card title="Sales" extra={cardDropdown(latestTransactionOption)}>
-							<Row>
-								<Col span="4">
-									<span style={{fontSize:"23px"}}>Subscription</span>
-								</Col>
-								<Col span="4">
-									<span style={{fontSize:"23px", paddingLeft:"35px"}}>Commission</span>
-								</Col>
-								<Col span="16">
-									<div style={{textAlign:"right"}}>
-									<span style={{fontSize:"23px"}}>$1178</span>
-										<span>Subscription</span>
-									</div>
-								</Col>
-							</Row>
+						<Card title="Courts" extra={cardDropdown(latestTransactionOption)}>
 							<Table
 								className="no-border-last"
 								columns={tableColumns}

@@ -11,11 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60a5964f-7d85-4046-8797-bb337af85307" name="Default Changelist" comment="language changes">
-      <change afterPath="$PROJECT_DIR$/src/views/app-views/dashboards/courts/SalesDashboardData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/app-views/dashboards/courts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/configs/NavigationConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/configs/NavigationConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/app-views/dashboards/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/app-views/dashboards/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/app-views/dashboards/courts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/app-views/dashboards/courts/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
       <workItem from="1613280080833" duration="17894000" />
       <workItem from="1613366499617" duration="6238000" />
       <workItem from="1613391306675" duration="111000" />
-      <workItem from="1613404491769" duration="6300000" />
+      <workItem from="1613404491769" duration="6630000" />
     </task>
     <task id="LOCAL-00001" summary="Adding app in github">
       <created>1612977537417</created>
@@ -196,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613412188562</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="language changes">
+      <created>1613412635963</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1613412635963</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,10 +238,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="354" y="109" key="RollbackChangesDialog/0.0.1280.800@0.0.1280.800" timestamp="1613368800145" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1613412191845">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1613412638495">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1613412191845" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1613412638495" />
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1613380358559">
       <screen x="0" y="23" width="1280" height="713" />
     </state>
