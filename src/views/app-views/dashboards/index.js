@@ -8,6 +8,7 @@ const Dashboards = ({ match }) => {
     <Switch>
       <Route path={`${match.url}/default`} component={lazy(() => import(`./default`))} />
       <Route path={`${match.url}/sales`} component={lazy(() => import(`./sales`))} />
+      <Route path={`${match.url}/courts`} component={lazy(() => import(`./courts`))} />
     </Switch>
   </Suspense>
 )};
