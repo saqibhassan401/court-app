@@ -68,7 +68,7 @@ export const RecentTransactionData = [
 		id: '#5331',
 		name: 'Clayton Bates',
 		date: '8 May 2020',
-		amount: '$137.00',
+		amount: 'Ekam Sports Areana',
 		status: 'Approved',
 		avatarColor: '#04d182'
 	},
@@ -76,7 +76,7 @@ export const RecentTransactionData = [
 		id: '#5332',
 		name: 'Gabriel Frazier',
 		date: '6 May 2020',
-		amount: '$322.00',
+		amount: 'Ekam Sports Areana',
 		status: 'Approved',
 		avatarColor: '#fa8c16'
 	},
@@ -84,7 +84,7 @@ export const RecentTransactionData = [
 		id: '#5333',
 		name: 'Debra Hamilton',
 		date: '1 May 2020',
-		amount: '$543.00',
+		amount: 'Ekam Sports Areana',
 		status: 'Pending',
 		avatarColor: '#1890ff'
 	},
@@ -92,7 +92,7 @@ export const RecentTransactionData = [
 		id: '#5334',
 		name: 'Stacey Ward',
 		date: '28 April 2020',
-		amount: '$876.00',
+		amount: 'Ekam Sports Areana',
 		status: 'Rejected',
 		avatarColor: '#ffc542'
 	},
@@ -100,7 +100,7 @@ export const RecentTransactionData = [
 		id: '#5335',
 		name: 'Troy Alexander',
 		date: '28 April 2020',
-		amount: '$241.00',
+		amount: 'Ekam Sports Areana',
 		status: 'Approved',
 		avatarColor: '#ff6b72'
 	},
