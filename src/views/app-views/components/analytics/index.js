@@ -93,7 +93,7 @@ const Analytics = () => {
             <Card>
                 <div style={{display:"flex"}}>
                     <h1>Analytics</h1>
-                    <div style={{paddingLeft:"200px"}}>
+                    <div style={{paddingLeft:"250px"}}>
                     <Dropdown overlay={menu} placement="bottomRight" arrow>
                         <Button style={{ background: "rgba(139,160,133,1)", color:"white"}}>Weekly</Button>
                     </Dropdown>
