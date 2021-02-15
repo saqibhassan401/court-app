@@ -14,15 +14,15 @@ const CourtsWidegt = () => {
                             </span>
                         </span>
                         <span style={{paddingLeft:"40px", display:"flex"}}>
-                            <h1>05</h1>
+                            <h1>01</h1>
                             <span style={{paddingTop:"15px", paddingLeft:"10px"}}>
-                                Active Courts
+                                Non-active Courts
                             </span>
                         </span>
                         <span style={{paddingLeft:"40px", display:"flex"}}>
-                            <h1>05</h1>
+                            <h1>06</h1>
                             <span style={{paddingTop:"15px", paddingLeft:"10px"}}>
-                                Active Courts
+                                Total Courts
                             </span>
                         </span>
                     </section>
