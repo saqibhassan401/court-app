@@ -1,28 +1,28 @@
 import React from 'react'
 import {Card} from "antd";
 
-const CourtsWidegt = () => {
+const DepositesWidegt = () => {
     return (
         <>
             <Card>
                 <div>
                     <section style={{paddingLeft:"15px", display:"flex"}}>
                         <span style={{paddingLeft:"10px", display:"flex"}}>
-                            <h1>$1748</h1>
+                            <h1>05</h1>
                             <span style={{paddingTop:"15px", paddingLeft:"10px"}}>
-                                Total
+                                Active Courts
                             </span>
                         </span>
                         <span style={{paddingLeft:"40px", display:"flex"}}>
-                            <h1>$1778</h1>
+                            <h1>01</h1>
                             <span style={{paddingTop:"15px", paddingLeft:"10px"}}>
-                                Recieved
+                                Non-active Courts
                             </span>
                         </span>
                         <span style={{paddingLeft:"40px", display:"flex"}}>
-                            <h1 style={{color:"red"}}>$570</h1>
+                            <h1>06</h1>
                             <span style={{paddingTop:"15px", paddingLeft:"10px"}}>
-                                Pending
+                                Total Courts
                             </span>
                         </span>
                     </section>
@@ -32,4 +32,4 @@ const CourtsWidegt = () => {
     )
 }
 
-export default CourtsWidegt
+export default DepositesWidegt
