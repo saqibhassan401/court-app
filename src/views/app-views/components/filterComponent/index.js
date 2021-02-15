@@ -35,10 +35,12 @@ export const Filter = () => {
         <>
             <Card>
             <Row>
-                <span style={{fontSize:"23px"}}>Filter</span>
-                <span style={{border:"1px solid rgba(226,227,223,1)", borderRadius:"100px", padding:"16px", marginLeft:"100px"}}><img src={deleteIcon}/> </span>
+                <div>
+                    <span style={{fontSize:"23px"}}>Filter</span>
+                    <span style={{border:"1px solid rgba(226,227,223,1)", borderRadius:"100px", padding:"15px", marginLeft:"130px"}}><img src={deleteIcon}/> </span>
+                </div>
             </Row>
-                <div style={{paddingTop:"20px"}}>
+                <div style={{paddingTop:"30px"}}>
                 <span>Price</span>
                 <span style={{paddingLeft:"130px"}}>
                     $200 - $500
