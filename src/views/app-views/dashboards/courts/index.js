@@ -41,32 +41,58 @@ const latestTransactionOption = (
 
 const tableColumns = [
 	{
-		title: 'Client Name',
+		title: 'Court Name',
 		dataIndex: 'name',
 		key: 'name',
 		render: (text, record) => (
 			<div className="d-flex align-items-center">
-				<Avatar size={30} className="font-size-sm" style={{backgroundColor: record.avatarColor}}>
-					{utils.getNameInitial(text)}
-				</Avatar>
 				<span className="ml-2">{text}</span>
 			</div>
 		),
 	},
 	{
-		title: 'Id',
-		dataIndex: 'id',
-		key: 'id',
+		title: 'Sports',
+		dataIndex: 'name',
+		key: 'name',
+		render: (text, record) => (
+			<div className="d-flex align-items-center">
+				<span className="ml-2">{text}</span>
+			</div>
+		),
 	},
 	{
-		title: 'Date',
-		dataIndex: 'date',
-		key: 'date',
+		title: 'Type',
+		dataIndex: 'name',
+		key: 'name',
+		render: (text, record) => (
+			<div className="d-flex align-items-center">
+				<span className="ml-2">{text}</span>
+			</div>
+		),
 	},
 	{
-		title: 'Amount',
+		title: 'Where',
+		dataIndex: 'name',
+		key: 'name',
+		render: (text, record) => (
+			<div className="d-flex align-items-center">
+				<span className="ml-2">{text}</span>
+			</div>
+		),
+	},
+	{
+		title: 'Rate',
 		dataIndex: 'amount',
 		key: 'amount',
+	},
+	{
+		title: () => <div className="text-right">Status</div>,
+		key: 'status',
+		render: (_, record) => (
+			<div className="text-right">
+				<Tag className="mr-0" color={record.status === 'Approved' ? 'cyan' : record.status === 'Pending' ? 'blue' : 'volcano'}>{record.status}</Tag>
+			</div>
+		),
 	},
 ];
 
