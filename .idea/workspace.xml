@@ -11,7 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60a5964f-7d85-4046-8797-bb337af85307" name="Default Changelist" comment="language changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/app-views/dashboards/courts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/app-views/dashboards/courts/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
       <workItem from="1613280080833" duration="17894000" />
       <workItem from="1613366499617" duration="6238000" />
       <workItem from="1613391306675" duration="111000" />
-      <workItem from="1613404491769" duration="7165000" />
+      <workItem from="1613404491769" duration="7410000" />
     </task>
     <task id="LOCAL-00001" summary="Adding app in github">
       <created>1612977537417</created>
@@ -207,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613412940206</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="language changes">
+      <created>1613413474677</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1613413474677</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,10 +251,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="354" y="109" key="RollbackChangesDialog/0.0.1280.800@0.0.1280.800" timestamp="1613368800145" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1613412942792">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1613413477485">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1613412942792" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1613413477485" />
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1613380358559">
       <screen x="0" y="23" width="1280" height="713" />
     </state>

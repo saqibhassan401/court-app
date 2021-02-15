@@ -41,6 +41,10 @@ const latestTransactionOption = (
 
 const tableColumns = [
 	{
+		title: 'ID',
+		dataIndex: 'id'
+	},
+	{
 		title: 'Court Name',
 		dataIndex: 'name',
 		key: 'name',
