@@ -186,7 +186,7 @@ const dashBoardNavTree = [{
   submenu: [
     {
       key: 'dashboards-dashboard',
-      path: `${APP_PREFIX_PATH}/dashboards/dashboard`,
+      path: `${APP_PREFIX_PATH}/dashboards/default`,
       title: 'sidenav.dashboard.dashboard',
       icon: DashboardOutlined,
       imgUrl: dashboardChart,
