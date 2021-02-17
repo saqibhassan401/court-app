@@ -35,7 +35,7 @@ const getLogo = (props) => {
   if (navCollapsed) {
     return '/img/logo-sm.png'
   }
-  return '/img/logoMatchbox.jpg'
+  return '/img/logoMatchbox.jpeg'
 }
 
 const getLogoDisplay = (isMobile, mobileLogo) => {
