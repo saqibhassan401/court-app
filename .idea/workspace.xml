@@ -11,15 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60a5964f-7d85-4046-8797-bb337af85307" name="Default Changelist" comment="language changes">
-      <change afterPath="$PROJECT_DIR$/src/views/app-views/components/calender/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared-components/DonutChartWidget/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/DonutChartWidget/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/configs/NavigationConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/configs/NavigationConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/ChartConstant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/ChartConstant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/app-views/components/analytics/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/app-views/components/analytics/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/app-views/components/courtsWidget/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/app-views/components/courtsWidget/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/app-views/dashboards/default/DefaultDashboardData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/app-views/dashboards/default/DefaultDashboardData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/app-views/dashboards/default/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/app-views/dashboards/default/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +59,7 @@
       <workItem from="1613366499617" duration="6238000" />
       <workItem from="1613391306675" duration="111000" />
       <workItem from="1613404491769" duration="8793000" />
-      <workItem from="1613491136827" duration="6203000" />
+      <workItem from="1613491136827" duration="7013000" />
     </task>
     <task id="LOCAL-00001" summary="Adding app in github">
       <created>1612977537417</created>

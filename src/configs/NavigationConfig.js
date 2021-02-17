@@ -202,15 +202,6 @@ const dashBoardNavTree = [{
       breadcrumb: false,
       submenu: []
     },
-    {
-      key: 'dashboards-courts',
-      path: `${APP_PREFIX_PATH}/dashboards/courts`,
-      title: 'sidenav.dashboard.courts',
-      icon: DashboardOutlined,
-      imgUrl: dashboardCourts,
-      breadcrumb: false,
-      submenu: []
-    }
 
 
   ]
