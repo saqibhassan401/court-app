@@ -198,7 +198,7 @@ const dashBoardNavTree = [{
       path: `${APP_PREFIX_PATH}/dashboards/sales`,
       title: 'sidenav.dashboard.sales',
       icon: DashboardOutlined,
-      imgUrl: dashboardChart,
+      imgUrl: dashboardSales,
       breadcrumb: false,
       submenu: []
     },
@@ -207,7 +207,7 @@ const dashBoardNavTree = [{
       path: `${APP_PREFIX_PATH}/dashboards/courts`,
       title: 'sidenav.dashboard.courts',
       icon: DashboardOutlined,
-      imgUrl: dashboardChart,
+      imgUrl: dashboardCourts,
       breadcrumb: false,
       submenu: []
     }

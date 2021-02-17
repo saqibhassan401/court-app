@@ -1,0 +1,2 @@
+(this.webpackJsonpmatchbox=this.webpackJsonpmatchbox||[]).push([[39],{499:function(s,t,e){"use strict";e.r(t);e(0);var a=e(2);t.default=function(s){var t=s.name,e=s.desc;return Object(a.jsxs)("div",{className:"mb-3",children:[Object(a.jsxs)("span",{className:"font-weight-bold text-dark",children:[t,":"]}),Object(a.jsxs)("span",{className:"text-gray-light",children:[" ",e]})]})}}}]);
+//# sourceMappingURL=39.4f0e7da0.chunk.js.map

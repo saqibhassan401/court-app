@@ -11,8 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60a5964f-7d85-4046-8797-bb337af85307" name="Default Changelist" comment="language changes">
+      <change afterPath="$PROJECT_DIR$/src/views/app-views/components/calender/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared-components/DonutChartWidget/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared-components/DonutChartWidget/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/configs/NavigationConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/configs/NavigationConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/ChartConstant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/ChartConstant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/app-views/components/analytics/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/app-views/components/analytics/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/app-views/components/courtsWidget/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/app-views/components/courtsWidget/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/app-views/dashboards/default/DefaultDashboardData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/app-views/dashboards/default/DefaultDashboardData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/app-views/dashboards/default/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/app-views/dashboards/default/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +65,8 @@
       <workItem from="1613280080833" duration="17894000" />
       <workItem from="1613366499617" duration="6238000" />
       <workItem from="1613391306675" duration="111000" />
-      <workItem from="1613404491769" duration="7751000" />
+      <workItem from="1613404491769" duration="8793000" />
+      <workItem from="1613491136827" duration="6203000" />
     </task>
     <task id="LOCAL-00001" summary="Adding app in github">
       <created>1612977537417</created>
@@ -221,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613413786439</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="language changes">
+      <created>1613452227044</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1613452227044</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,10 +274,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="354" y="109" key="RollbackChangesDialog/0.0.1280.800@0.0.1280.800" timestamp="1613368800145" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1613413793999">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1613452229948">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1613413793999" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1613452229948" />
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1613380358559">
       <screen x="0" y="23" width="1280" height="713" />
     </state>
@@ -276,10 +291,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="453" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1613230311633" />
-    <state x="347" y="155" width="586" height="490" key="find.popup" timestamp="1613405962349">
+    <state x="347" y="155" width="586" height="490" key="find.popup" timestamp="1613498027897">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="347" y="155" width="586" height="490" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1613405962349" />
+    <state x="347" y="155" width="586" height="490" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1613498027897" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1612983179055">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

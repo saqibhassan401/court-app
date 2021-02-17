@@ -1,5 +1,5 @@
-export const COLOR_1 = '#3e82f7';  // blue
-export const COLOR_2 = '#04d182';  // cyan
+export const COLOR_1 = 'rgba(84,23,255,1)';  // blue
+export const COLOR_2 = 'rgba(255,0,0,1)';  // cyan
 export const COLOR_3 = '#ff6b72';  // volcano
 export const COLOR_4 = '#ffc107';  // gold
 export const COLOR_5 = '#a461d8';  // purple
@@ -160,7 +160,7 @@ export const apexPieChartDefaultOption = {
 						}
 					}
 				},
-				size: '87%'
+				size: '50%'
 		  }
 		}
 	},

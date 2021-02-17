@@ -1,11 +1,28 @@
+import {COLORS} from "../../../../constants/ChartConstant";
+
+const jointSessionData = () => {
+	let arr = []
+	for (let i = 0; i < sessionData.length; i++) {
+		const data = sessionData[i];
+		const label = sessionLabels[i];
+		const color = sessionColor[i]
+		arr = [...arr, {
+			data: data,
+			label: label,
+			color: color
+		}]
+	}
+	return arr
+}
+
 export const VisitorChartData = {
   	series: [
 		{
-			name: "Session Duration",
+			name: "Bookings",
 			data: [45, 52, 38, 24, 33, 26, 21, 20, 6, 8, 15, 10]
 		},
 		{
-			name: "Page Views",
+			name: "Products",
 			data: [35, 41, 62, 42, 13, 18, 29, 37, 36, 51, 32, 35]
 		}
 	],
@@ -27,8 +44,8 @@ export const VisitorChartData = {
 
 export const AnnualStatisticData = [
 	{
-		title: 'Recent activity',
-		value:'3 new courts added',
+		title: 'Court Name',
+		value:'Ekram Sports Areana',
 	}
 ]
 
@@ -105,3 +122,8 @@ export const RecentTransactionData = [
 		avatarColor: '#ff6b72'
 	},
 ];
+
+export const sessionColor = [COLORS[0], COLORS[1], COLORS[3], COLORS[5]]
+export const sessionData = [3561, 1443, 2462]
+export const sessionLabels = ['Completed', 'Non-Completed', 'Cancelled']
+export const conbinedSessionData = jointSessionData()

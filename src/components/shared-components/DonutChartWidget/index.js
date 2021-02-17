@@ -26,8 +26,10 @@ const DonutChartWidget = props => {
 	return (
 		<Card>
 			<div className="text-center">
-				<Chart type="donut" options={options} series={series} width={width} height={height} />
-				{extra}
+				<div style={{display:"flex"}}>
+					<Chart type="donut" options={options} series={series} width={width} height={height} />
+					{extra}
+				</div>
 			</div>
 		</Card>
 	)

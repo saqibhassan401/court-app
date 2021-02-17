@@ -8,21 +8,21 @@ const CourtsWidegt = () => {
                 <div>
                     <section style={{paddingLeft:"15px", display:"flex"}}>
                         <span style={{paddingLeft:"10px", display:"flex"}}>
-                            <h1>$1748</h1>
+                            <h1>178</h1>
                             <span style={{paddingTop:"15px", paddingLeft:"10px"}}>
-                                Total
+                                Clients Check-in
                             </span>
                         </span>
                         <span style={{paddingLeft:"40px", display:"flex"}}>
-                            <h1>$1778</h1>
+                            <h1>150</h1>
                             <span style={{paddingTop:"15px", paddingLeft:"10px"}}>
-                                Recieved
+                                Clients Check-Out
                             </span>
                         </span>
                         <span style={{paddingLeft:"40px", display:"flex"}}>
-                            <h1 style={{color:"red"}}>$570</h1>
+                            <h1 style={{color:"red"}}>3.6K</h1>
                             <span style={{paddingTop:"15px", paddingLeft:"10px"}}>
-                                Pending
+                                Total Clients
                             </span>
                         </span>
                     </section>

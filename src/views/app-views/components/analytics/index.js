@@ -2,68 +2,6 @@ import React, { useState } from "react";
 import {Card, Dropdown, Menu, Button, Tabs, Row, Col} from 'antd';
 const { TabPane } = Tabs;
 
-const bookingData = [
-    {
-        time : "8:00 AM",
-        type:"bookedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"unbookedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"bookedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"bookedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"unbookedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"bookedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"blockedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"blockedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"blockedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"unbookedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"blockedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"bookedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"unbookedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"blockedHours"
-    },
-    {
-        time : "8:00 AM",
-        type:"unbookedHours"
-    }
-]
 
 const menu = (
     <Menu>
@@ -83,7 +21,7 @@ const menu = (
     </Menu>
 );
 
-const Analytics = () => {
+const Analytics = (props) => {
 
     function callback(key) {
         console.log(key);
@@ -101,15 +39,7 @@ const Analytics = () => {
                 </div>
                 <Tabs onChange={callback} type="card" style={{alignItems:"center", paddingTop:"20px"}}>
                     <TabPane tab="Appointment" key="1">
-                        {
-                            bookingData.map((booking,index)=>{
-                                return(
-                                    <Button style={{margin:"10px"}}>
-                                        <p style={{color: booking.type == "bookedHours" ? "rgba(84,23,255,1)" : booking.type == "blockedHours" ? "red":""}}>{booking.time}</p>
-                                    </Button>
-                                )
-                            })
-                        }
+                        <props.SalesByCategory/>
                     </TabPane>
                     <TabPane tab="Occupancy" key="2">
                         Content of Tab Pane 2

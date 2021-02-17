@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Row, Col, Button, Card, Avatar, Dropdown, Table, Menu, Tag,Input } from 'antd';
+import { Row, Col, Button, Card, Avatar, Dropdown, Table, Menu, Tag,Input,Badge,Calendar } from 'antd';
+import Flex from 'components/shared-components/Flex'
 import StatisticWidget from 'components/shared-components/StatisticWidget';
 import ChartWidget from 'components/shared-components/ChartWidget';
 import AvatarStatus from 'components/shared-components/AvatarStatus';
@@ -11,13 +12,19 @@ import moreCircle from "../../../../assets/icons/Iconly_Bold_More_Circle.png"
 import filterIcon from "../../../../assets/icons/Iconly_Bold_Filter_2.png"
 import timeCircleIcon from "../../../../assets/icons/Iconly_Bold_Time_Circle.png"
 import calenderIcon from "../../../../assets/icons/Iconly_Light_Calendar.png"
+import DonutChartWidget from 'components/shared-components/DonutChartWidget'
+import Calender from "../../components/calender";
 
 import {
   VisitorChartData,
   AnnualStatisticData,
   ActiveMembersData,
   NewMembersData,
-  RecentTransactionData
+  RecentTransactionData,
+  sessionData,
+  sessionLabels,
+  conbinedSessionData,
+  sessionColor
 } from './DefaultDashboardData';
 import ApexChart from "react-apexcharts";
 import { apexLineChartDefaultOption, COLOR_2 } from 'constants/ChartConstant';
@@ -37,44 +44,29 @@ const MembersChart = props => (
   <ApexChart {...props}/>
 )
 
-const memberChartOption = {
-  ...apexLineChartDefaultOption,
-  ...{
-    chart: {
-      sparkline: {
-        enabled: true,
-      }
-    },
-    colors: [COLOR_2],
-  }
-}
-
-const pushRoute = () => {
-  console.log('execute')
-  exampleService.getPost().then(resp => {
-    console.log('resp', resp)
-  })
-}
-
-const newJoinMemberOption = (
-  <Menu>
-    <Menu.Item key="0">
-      <span>
-        <div className="d-flex align-items-center">
-          <PlusOutlined />
-          <span className="ml-2">Add all</span>
-        </div>
-      </span>
-    </Menu.Item>
-    <Menu.Item key="1">
-      <span>
-        <div className="d-flex align-items-center">
-          <StopOutlined />
-          <span className="ml-2">Disable all</span>
-        </div>
-      </span>
-    </Menu.Item>
-  </Menu>
+const SalesByCategory = () => (
+    <DonutChartWidget
+        series={sessionData}
+        labels={sessionLabels}
+        customOptions={{colors: sessionColor}}
+        extra={
+          <Row>
+            <Col xs={20} sm={20} md={20} lg={24}>
+              <div className="mt-4 mx-auto" style={{maxWidth: 200}}>
+                {conbinedSessionData.map(elm => (
+                    <Flex alignItems="center" justifyContent="between" className="mb-3" key={elm.label}>
+                      <div>
+                        <Badge color={elm.color} />
+                        <span className="text-gray-light">{elm.label}</span>
+                      </div>
+                      <span className="font-weight-bold text-dark">{elm.data}</span>
+                    </Flex>
+                ))}
+              </div>
+            </Col>
+          </Row>
+        }
+    />
 )
 
 const latestTransactionOption = (
@@ -109,7 +101,6 @@ const latestTransactionOption = (
 const cardDropdown = (menu) => (
     <>
       <div style={{display:"flex"}}>
-        <span style={{paddingRight:"30px"}}><Input placeHolder={"Search name here..."} style={{height:"56px", width:"350px"}}/> </span>
         <span style={{borderRadius:"100px", border:"1px solid rgba(226,227,223,1)", padding:"16px", marginRight:"20px"}}><img src={filterIcon}/></span>
         <span style={{borderRadius:"100px", border:"1px solid rgba(226,227,223,1)", padding:"16px"}}><img src={timeCircleIcon}/></span>
       </div>
@@ -183,26 +174,24 @@ export const DefaultDashboard = () => {
           <Row gutter={16}>
             <Col span={12}>
               <ChartWidget
-                title="Unique Visitors"
+                title="Sales"
                 series={visitorChartData.series}
                 xAxis={visitorChartData.categories}
                 height={400}
               />
             </Col>
             <Col span={12}>
-              <Analytics/>
+              <Analytics
+                  SalesByCategory={ SalesByCategory}/>
             </Col>
             </Row>
       <Row gutter={16}>
         <Col xs={24} sm={24} md={24} lg={17}>
-          <Card title="Booking Logs" extra={cardDropdown(latestTransactionOption)}>
-            <Table
-              className="no-border-last"
-              columns={tableColumns}
-              dataSource={recentTransactionData}
-              rowKey='id'
-              pagination={false}
-            />
+          <Card title="Booking Schedules" extra={cardDropdown(latestTransactionOption)}>
+          <Row>
+            <Col span="12"><Calender/></Col>
+            <Col span="12"><Calender /></Col>
+            </Row>
           </Card>
         </Col>
         <Col span="7">
