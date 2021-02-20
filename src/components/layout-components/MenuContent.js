@@ -63,7 +63,7 @@ const SideNavContent = (props) => {
           >
             {menu.submenu.map((subMenuFirst) =>
                 <Menu.Item key={subMenuFirst.key} >
-                    <img src={subMenuFirst.imgUrl}/>
+                  <img src={subMenuFirst.imgUrl}/>
                   <span style={{margin:"20px", fontSize:"18px",fontFamily:"Circular Std Book"}}>{setLocale(localization, subMenuFirst.title)}</span>
                   <Link onClick={() => closeMobileNav()} to={subMenuFirst.path} />
                 </Menu.Item>

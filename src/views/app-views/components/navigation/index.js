@@ -22,5 +22,3 @@ const NavigationComponents = ({ match }) => (
     </Switch>
   </div>
 );
-
-export default NavigationComponents;

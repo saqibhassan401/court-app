@@ -7,6 +7,7 @@ import Filter from "../../components/filterComponent";
 import filterIcon from "../../../../assets/icons/Iconly_Bold_Filter_2.png";
 import timeCircleIcon from "../../../../assets/icons/Iconly_Bold_Time_Circle.png";
 import {FileExcelOutlined, PrinterOutlined, ReloadOutlined} from "@ant-design/icons";
+import salesLogo from '../../../../assets/icons/Iconly_Bold_Wallet.png'
 import utils from "../../../../utils";
 const { Option } = Select;
 
@@ -100,7 +101,7 @@ const SalesDashboard = () => {
 			</Row>
 				<Row gutter={16}>
 					<Col xs={24} sm={24} md={24} lg={17}>
-						<Card title="Sales" extra={cardDropdown(latestTransactionOption)}>
+						<Card title={<span><img alt='Sales' src={salesLogo} style={{marginRight:15+'px'}}/>Sales</span>} extra={cardDropdown(latestTransactionOption)}>
 							<Row>
 								<Col span="4">
 									<span style={{fontSize:"23px"}}>Subscription</span>

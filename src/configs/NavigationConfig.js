@@ -31,7 +31,7 @@ import dashboardChart from "../assets/icons/Iconly_Bold_Chart.png";
 import dashboardSales from "../assets/icons/Iconly_Bold_Wallet.png";
 import dashboardSettings from "../assets/icons/Iconly_Bold_Setting.png"
 import dashboardCourts from "../assets/icons/Group_8.png"
-
+import dashboardClient from "../assets/icons/Iconly-Bold-3 User.png"
 
 
 // const extraNavTree = [
@@ -187,7 +187,7 @@ const dashBoardNavTree = [{
     {
       key: 'dashboards-dashboard',
       path: `${APP_PREFIX_PATH}/dashboards/default`,
-      title: 'sidenav.dashboard.dashboard',
+      title: 'Dashboard',
       icon: DashboardOutlined,
       imgUrl: dashboardChart,
       breadcrumb: false,
@@ -196,13 +196,30 @@ const dashBoardNavTree = [{
     {
       key: 'dashboards-sales',
       path: `${APP_PREFIX_PATH}/dashboards/sales`,
-      title: 'sidenav.dashboard.sales',
+      title: 'Sales',
       icon: DashboardOutlined,
       imgUrl: dashboardSales,
       breadcrumb: false,
       submenu: []
     },
-
+    {
+      key: 'dashboards-client',
+      path: `${APP_PREFIX_PATH}/dashboards/client`,
+      title: 'Clients',
+      icon: DashboardOutlined,
+      imgUrl: dashboardClient,
+      breadcrumb: false,
+      submenu: []
+    },
+    {
+      key: 'dashboards-courts',
+      path: `${APP_PREFIX_PATH}/dashboards/courts`,
+      title: 'Courts',
+      icon: DashboardOutlined,
+      imgUrl: dashboardCourts,
+      breadcrumb: false,
+      submenu: []
+    }
 
   ]
 }]

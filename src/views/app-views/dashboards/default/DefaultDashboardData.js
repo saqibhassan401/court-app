@@ -123,6 +123,39 @@ export const RecentTransactionData = [
 	},
 ];
 
+export const ClientsData = [
+	{
+		mobile: '+91 8554491229',
+		name: 'Clayton Bates',
+		date: '8 May 2020',
+		avatarColor: '#04d182'
+	},
+	{
+		mobile: '+91 8554491229',
+		name: 'Gabriel Frazier',
+		date: '6 May 2020',
+		avatarColor: '#fa8c16'
+	},
+	{
+		mobile: '+91 8554491229',
+		name: 'Debra Hamilton',
+		date: '1 May 2020',
+		avatarColor: '#1890ff'
+	},
+	{
+		mobile: '+91 8554491229',
+		name: 'Stacey Ward',
+		date: '28 April 2020',
+		avatarColor: '#ffc542'
+	},
+	{
+		mobile: '+91 8554491229',
+		name: 'Troy Alexander',
+		date: '28 April 2020',
+		avatarColor: '#ff6b72'
+	},
+];
+
 export const sessionColor = [COLORS[0], COLORS[1], COLORS[3], COLORS[5]]
 export const sessionData = [3561, 1443, 2462]
 export const sessionLabels = ['Completed', 'Non-Completed', 'Cancelled']

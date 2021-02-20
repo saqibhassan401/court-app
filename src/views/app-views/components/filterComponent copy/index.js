@@ -37,8 +37,8 @@ export const Filter = () => {
             <Card>
             <Row>
                 <div>
-                    <span style={{fontSize:"23px"}}><img src={filterIcon} alt='filter' width='36' height='36' style={{marginRight:15 +'px'}}/>Filter</span>
-                    <span style={{border:"1px solid rgba(226,227,223,1)", borderRadius:"100px", padding:"15px", marginLeft:"130px"}}><img src={deleteIcon}/> </span>
+                    <span style={{fontSize:"23px"}}><img src={filterIcon} alt='filter' width='36' height='36' style={{marginRight:15 +'px'}}/>Filter <small style={{color:"grey"}}>(4)</small></span>
+                    <span style={{border:"1px solid rgba(226,227,223,1)", borderRadius:"100px", padding:"15px", marginLeft:"120px"}}><img src={deleteIcon}/> </span>
                 </div>
             </Row>
                 <div style={{paddingTop:"30px"}}>
